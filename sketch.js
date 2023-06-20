@@ -60,7 +60,5 @@ function keyPressed() {
 }
 
 function touchStarted() {
-  if (key == " ") {
     bird.fly();
-  }
 }
