@@ -58,3 +58,9 @@ function keyPressed() {
     obs = 0;
   }
 }
+
+function touchStarted() {
+  if (key == " ") {
+    bird.fly();
+  }
+}
